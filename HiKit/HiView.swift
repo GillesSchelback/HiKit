@@ -7,13 +7,14 @@
 
 import SwiftUI
 
-struct HiView: View {
-    let bundle = Bundle(identifier: "own.project.HiKit")
+public struct HiView: View {
     
-    var body: some View {
+    public init() { }
+    
+    public var body: some View {
         ScrollView {
             VStack(spacing: 0) {
-                Image("Memoji", bundle: bundle)
+                Image("Memoji", bundle: HiConstants.bundleIdentifier)
                     .resizable()
                     .frame(width: 180, height: 180)
                     .padding(.bottom, 16)
@@ -56,7 +57,7 @@ struct HiView: View {
             }
         }
         .background {
-            Image("Background", bundle: bundle)
+            Image("Background", bundle: HiConstants.bundleIdentifier)
                 .overlay { Rectangle().fill(.ultraThinMaterial) }
                 .ignoresSafeArea()
         }
