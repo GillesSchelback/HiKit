@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		F393FC412A324F5200268445 /* HiKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F393FC402A324F5200268445 /* HiKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F393FC482A324F9A00268445 /* HiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F393FC472A324F9A00268445 /* HiView.swift */; };
+		F393FC4A2A32500F00268445 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F393FC492A32500F00268445 /* Assets.xcassets */; };
+		F393FC4C2A32535400268445 /* LinkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F393FC4B2A32535400268445 /* LinkButton.swift */; };
+		F393FC4E2A3255A200268445 /* StoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F393FC4D2A3255A200268445 /* StoryRow.swift */; };
+		F393FC522A32579D00268445 /* HiConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F393FC512A32579D00268445 /* HiConstant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F393FC3D2A324F5200268445 /* HiKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HiKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F393FC402A324F5200268445 /* HiKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HiKit.h; sourceTree = "<group>"; };
 		F393FC472A324F9A00268445 /* HiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiView.swift; sourceTree = "<group>"; };
+		F393FC492A32500F00268445 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F393FC4B2A32535400268445 /* LinkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkButton.swift; sourceTree = "<group>"; };
+		F393FC4D2A3255A200268445 /* StoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryRow.swift; sourceTree = "<group>"; };
+		F393FC512A32579D00268445 /* HiConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiConstant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +57,10 @@
 			children = (
 				F393FC402A324F5200268445 /* HiKit.h */,
 				F393FC472A324F9A00268445 /* HiView.swift */,
+				F393FC492A32500F00268445 /* Assets.xcassets */,
+				F393FC4B2A32535400268445 /* LinkButton.swift */,
+				F393FC4D2A3255A200268445 /* StoryRow.swift */,
+				F393FC512A32579D00268445 /* HiConstant.swift */,
 			);
 			path = HiKit;
 			sourceTree = "<group>";
@@ -123,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F393FC4A2A32500F00268445 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F393FC482A324F9A00268445 /* HiView.swift in Sources */,
+				F393FC522A32579D00268445 /* HiConstant.swift in Sources */,
+				F393FC4E2A3255A200268445 /* StoryRow.swift in Sources */,
+				F393FC4C2A32535400268445 /* LinkButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +290,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +321,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
