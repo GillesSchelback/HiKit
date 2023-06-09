@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Gilles Schelback on 09/06/2023.
+  
+*/
+
+"hiview.subheader" = "Designed and developed by"
+"hiview.established.title"= "How was this app established?"
+"hiview.established.musictext"= "Hours of music which led to the discovery of some awesome songs"
+"hiview.established.oditext"= "Walks with Odi to keep my sanity and get my daily dose of oxygen"
+"hiview.established.cyclingtext"= "Go on adventures to clear my mind and come up with new ideas"
