@@ -6,8 +6,8 @@
   
 */
 
-"hiview.subheader" = "Designed and developed by";
-"hiview.established.title"= "How was this app established?";
-"hiview.established.musictext"= "Hours of music which led to the discovery of some awesome songs";
-"hiview.established.oditext"= "Walks with Odi to keep my sanity and get my daily dose of oxygen";
-"hiview.established.cyclingtext"= "Go on adventures to clear my mind and come up with new ideas";
+"Designed and developed by" = "Designed and developed by";
+"How was this app established" = "How was this app established?";
+"Hours of music" = "Hours of music which led to the discovery of some awesome songs";
+"Walks with Odi" = "Walks with Odi to keep my sanity and get my daily dose of oxygen";
+"Go on adventures" = "Go on adventures to clear my mind and come up with new ideas";

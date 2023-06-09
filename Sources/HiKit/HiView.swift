@@ -19,7 +19,7 @@ public struct HiView: View {
                     .frame(width: 180, height: 180)
                     .padding(.bottom, 16)
                 
-                Text("hiview.subheader", bundle: .module)
+                Text("How was this app established", bundle: .module)
                     .font(.body)
                     .fontWeight(.regular)
                     .foregroundColor(.white.opacity(0.7))
@@ -39,15 +39,15 @@ public struct HiView: View {
                 .padding(.bottom, 16)
                 
                 VStack(spacing: 16) {
-                    Text("hiview.established.title", bundle: .module)
+                    Text("How was this app established", bundle: .module)
                         .font(.headline)
                         .fontWeight(.semibold)
                         .foregroundColor(.white)
                         .frame(maxWidth: .infinity, alignment: .leading)
                     
-                    ContributionRow(emoji: "🎧", localizationKey: "hiview.established.musictext")
-                    ContributionRow(emoji: "🐶", localizationKey: "hiview.established.oditext")
-                    ContributionRow(emoji: "🚴🏼",  localizationKey: "hiview.established.cyclingtext")
+                    ContributionRow(emoji: "🎧", localizationKey: "Hours of music")
+                    ContributionRow(emoji: "🐶", localizationKey: "Walks with Odi")
+                    ContributionRow(emoji: "🚴🏼",  localizationKey: "Go on adventures")
                 }
                 .padding()
                 .frame(maxWidth: .infinity)
