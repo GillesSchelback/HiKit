@@ -18,7 +18,7 @@ public struct HiView: View {
                     .resizable()
                     .frame(width: 180, height: 180)
                     .padding(.bottom, 16)
-                    .accessibilityLabel("Memoji that represents the developer of the application")
+                    .accessibilityLabel(String(format: NSLocalizedString("Memoji label", comment: "")))
                 
                 Text("How was this app established", bundle: .module)
                     .font(.body)

@@ -23,7 +23,7 @@ struct ExternalAppLink: View {
                         .resizable()
                         .frame(width: 30, height: 30)
                 }
-                .accessibilityLabel("Link to open developers \(data.appIcon) profile")
+                .accessibilityLabel(String(format: NSLocalizedString("Link label %@", comment: ""), data.appIcon))
         }
         .accessibilityHidden(true)
     }
