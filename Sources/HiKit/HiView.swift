@@ -26,7 +26,7 @@ public struct HiView: View {
                     .foregroundColor(.white.opacity(0.7))
                     .padding(.bottom, 8)
                 
-                Text("Gilles Schelback")
+                Text("Gilles Schelback", bundle: .module)
                     .font(.title2)
                     .fontWeight(.semibold)
                     .foregroundColor(.white)
