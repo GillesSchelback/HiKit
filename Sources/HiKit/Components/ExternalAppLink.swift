@@ -23,10 +23,11 @@ struct ExternalAppLink: View {
                         .resizable()
                         .frame(width: 30, height: 30)
                 }
-                .accessibilityLabel("Link")
-                .accessibilityValue("Link")
-                .accessibilityRemoveTraits(.isButton)
-                .accessibilityRemoveTraits(.isLink)
+                
+              
         }
+        .accessibilityLabel(NSLocalizedString("Link", comment: ""))
+        .accessibilityRemoveTraits(.isButton)
+        .accessibilityRemoveTraits(.isLink)
     }
 }
