@@ -14,7 +14,7 @@ Lately I've been a big fan of the designs created by Apple, there is something s
 
 | :high_brightness: Light appearance | :new_moon: Dark appearance |
 |--|--|
-| <img src="https://github.com/GillesSchelback/HiKit/assets/72620339/263e1622-a513-4a1a-a1f7-ad92f24e209a"  width="300"> | <img src="https://github.com/GillesSchelback/HiKit/assets/72620339/361a0d64-3269-4d2a-bff4-ec545319293c"  width="300" style="padding:10px"> |
+| <img src="https://github.com/GillesSchelback/HiKit/assets/72620339/538f205b-a05c-47f1-a938-a1543512593e"  width="300"> | <img src="https://github.com/GillesSchelback/HiKit/assets/72620339/e20f1107-4365-4ab4-af7d-914c3a1a1fd0"  width="300" style="padding:10px"> |
 
 
 ## :crystal_ball: What about the future?
