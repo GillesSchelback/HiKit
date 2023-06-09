@@ -25,6 +25,5 @@ struct ExternalAppLink: View {
                 }
                 .accessibilityLabel("Link label")
         }
-        .accessibilityHidden(true)
     }
 }

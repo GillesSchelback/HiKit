@@ -20,7 +20,7 @@ public struct HiView: View {
                     .padding(.bottom, 16)
                     .accessibilityRemoveTraits(.isImage)
                 
-                Text("How was this app established", bundle: .module)
+                Text("Designed and developed by", bundle: .module)
                     .font(.body)
                     .fontWeight(.regular)
                     .foregroundColor(.white.opacity(0.7))
