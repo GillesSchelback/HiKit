@@ -22,7 +22,7 @@ Lately I've been a big fan of the designs created by Apple, there is something s
 I'm satisfied with the overall design of the *View* so don't expect any major design overhaul in the near future, some minor changes are still possible. There is still some finetuning required to make the project something I'm really proud of. The below items are the ones that are currently in the pipeline. 
 
 <ul>
-  <li>📦 Convert Framework to Swift Package</li>
+  <li>~~📦 Convert Framework to Swift Package~~</li>
   <li>✏️ Implement translations</li>
   <li>📳 Implement Accessibility</li>
 </ul>
