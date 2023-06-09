@@ -18,6 +18,7 @@ public struct HiView: View {
                     .resizable()
                     .frame(width: 180, height: 180)
                     .padding(.bottom, 16)
+                    .accessibilityLabel("Memoji that represents the developer of the application")
                 
                 Text("How was this app established", bundle: .module)
                     .font(.body)
@@ -60,6 +61,7 @@ public struct HiView: View {
             Image("Background", bundle: .module)
                 .overlay { Rectangle().fill(.ultraThinMaterial) }
                 .ignoresSafeArea()
+                .accessibilityHidden(true)
         }
     }
 }

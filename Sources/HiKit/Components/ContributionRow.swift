@@ -19,6 +19,7 @@ struct ContributionRow: View {
                 .overlay {
                     Text(emoji)
                 }
+                .accessibilityHidden(true)
             
             Text(localizationKey, bundle: .module)
                 .font(.subheadline)

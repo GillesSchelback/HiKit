@@ -23,6 +23,8 @@ struct ExternalAppLink: View {
                         .resizable()
                         .frame(width: 30, height: 30)
                 }
+                .accessibilityLabel("Link to open \(data.appIcon)")
+                .accessibilityHint("Opens \(data.appIcon) to show developers profile")
         }
     }
 }
