@@ -18,8 +18,6 @@ public struct HiView: View {
                     .resizable()
                     .frame(width: 180, height: 180)
                     .padding(.bottom, 16)
-                    .accessibilityLabel("Memoji label")
-                    .accessibilityValue(LocalizedStringKey("Memoji label"))
                 
                 Text("How was this app established", bundle: .module)
                     .font(.body)
