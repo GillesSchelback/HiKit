@@ -12,7 +12,7 @@ struct HiConstants {
     
     static let bundleIdentifier = Bundle(identifier: "own.project.HiKit")
     
-    static let codes = [
+    static let appCodes = [
         AppCode.ACAS001,
         AppCode.ACLI002,
         AppCode.ACGH003,

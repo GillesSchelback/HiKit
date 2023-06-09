@@ -14,7 +14,7 @@ public struct HiView: View {
     public var body: some View {
         ScrollView {
             VStack(spacing: 0) {
-                Image("Memoji", bundle: HiConstants.bundleIdentifier)
+                Image("Memoji", bundle: HiConstant.bundleIdentifier)
                     .resizable()
                     .frame(width: 180, height: 180)
                     .padding(.bottom, 16)
@@ -32,8 +32,8 @@ public struct HiView: View {
                     .padding(.bottom, 16)
                 
                 HStack(spacing: 20) {
-                    ForEach(HiConstants.codes, id: \.self) { code in
-                        LinkButton(code: code)
+                    ForEach(HiConstant.appCodes, id: \.self) { code in
+                        ExternalAppLink(code: code)
                     }
                 }
                 .padding(.bottom, 16)
@@ -45,9 +45,9 @@ public struct HiView: View {
                         .foregroundColor(.white)
                         .frame(maxWidth: .infinity, alignment: .leading)
                     
-                    StoryRow(emoji: "🎧", story: "Hours of music which led to the discovery of some awesome songs")
-                    StoryRow(emoji: "🐶", story: "Walks with Odi to keep my sanity and get my daily dose of oxygen")
-                    StoryRow(emoji: "🚴🏼", story: "Go on adventures to clear my mind and come up with new ideas")
+                    ContributionRow(emoji: "🎧", text: "Hours of music which led to the discovery of some awesome songs")
+                    ContributionRow(emoji: "🐶", text: "Walks with Odi to keep my sanity and get my daily dose of oxygen")
+                    ContributionRow(emoji: "🚴🏼", text: "Go on adventures to clear my mind and come up with new ideas")
                 }
                 .padding()
                 .frame(maxWidth: .infinity)
@@ -57,7 +57,7 @@ public struct HiView: View {
             }
         }
         .background {
-            Image("Background", bundle: HiConstants.bundleIdentifier)
+            Image("Background", bundle: HiConstant.bundleIdentifier)
                 .overlay { Rectangle().fill(.ultraThinMaterial) }
                 .ignoresSafeArea()
         }

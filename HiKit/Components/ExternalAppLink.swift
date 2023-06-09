@@ -7,26 +7,22 @@
 
 import SwiftUI
 
-struct LinkButton: View {
+struct ExternalAppLink: View {
     var code: String
-    var data: AppData {
-        getAppData(code: code)
+    var data: ExternalAppData {
+        ExternalAppData.getAppData(for: code)
     }
 
     var body: some View {
-        Link(destination: URL(string: data.link)!) {
+        Link(destination: URL(string: data.hyperLink)!) {
             Circle()
                 .fill(data.backgroundGradient)
                 .frame(width: 40)
                 .overlay {
-                    Image(data.icon, bundle: HiConstants.bundleIdentifier)
+                    Image(data.appIcon, bundle: HiConstant.bundleIdentifier)
                         .resizable()
                         .frame(width: 30, height: 30)
                 }
         }
-    }
-    
-    func getAppData(code: String) -> AppData {
-        HiConstants.apps[code]!
     }
 }

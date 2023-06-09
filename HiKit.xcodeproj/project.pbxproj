@@ -10,9 +10,9 @@
 		F393FC412A324F5200268445 /* HiKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F393FC402A324F5200268445 /* HiKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F393FC482A324F9A00268445 /* HiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F393FC472A324F9A00268445 /* HiView.swift */; };
 		F393FC4A2A32500F00268445 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F393FC492A32500F00268445 /* Assets.xcassets */; };
-		F393FC4C2A32535400268445 /* LinkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F393FC4B2A32535400268445 /* LinkButton.swift */; };
-		F393FC4E2A3255A200268445 /* StoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F393FC4D2A3255A200268445 /* StoryRow.swift */; };
-		F393FC522A32579D00268445 /* HiConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F393FC512A32579D00268445 /* HiConstant.swift */; };
+		F393FC4C2A32535400268445 /* ExternalAppLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = F393FC4B2A32535400268445 /* ExternalAppLink.swift */; };
+		F393FC4E2A3255A200268445 /* ContributionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F393FC4D2A3255A200268445 /* ContributionRow.swift */; };
+		F3C9BC322A33661100A0F6B8 /* HiStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C9BC312A33661100A0F6B8 /* HiStructs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,9 +20,9 @@
 		F393FC402A324F5200268445 /* HiKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HiKit.h; sourceTree = "<group>"; };
 		F393FC472A324F9A00268445 /* HiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiView.swift; sourceTree = "<group>"; };
 		F393FC492A32500F00268445 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F393FC4B2A32535400268445 /* LinkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkButton.swift; sourceTree = "<group>"; };
-		F393FC4D2A3255A200268445 /* StoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryRow.swift; sourceTree = "<group>"; };
-		F393FC512A32579D00268445 /* HiConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiConstant.swift; sourceTree = "<group>"; };
+		F393FC4B2A32535400268445 /* ExternalAppLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalAppLink.swift; sourceTree = "<group>"; };
+		F393FC4D2A3255A200268445 /* ContributionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributionRow.swift; sourceTree = "<group>"; };
+		F3C9BC312A33661100A0F6B8 /* HiStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiStructs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,14 +55,30 @@
 		F393FC3F2A324F5200268445 /* HiKit */ = {
 			isa = PBXGroup;
 			children = (
+				F3C9BC332A3379DB00A0F6B8 /* Components */,
+				F3C9BC302A3365E500A0F6B8 /* Models */,
 				F393FC402A324F5200268445 /* HiKit.h */,
 				F393FC472A324F9A00268445 /* HiView.swift */,
 				F393FC492A32500F00268445 /* Assets.xcassets */,
-				F393FC4B2A32535400268445 /* LinkButton.swift */,
-				F393FC4D2A3255A200268445 /* StoryRow.swift */,
-				F393FC512A32579D00268445 /* HiConstant.swift */,
 			);
 			path = HiKit;
+			sourceTree = "<group>";
+		};
+		F3C9BC302A3365E500A0F6B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F3C9BC312A33661100A0F6B8 /* HiStructs.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F3C9BC332A3379DB00A0F6B8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F393FC4B2A32535400268445 /* ExternalAppLink.swift */,
+				F393FC4D2A3255A200268445 /* ContributionRow.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,9 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F393FC482A324F9A00268445 /* HiView.swift in Sources */,
-				F393FC522A32579D00268445 /* HiConstant.swift in Sources */,
-				F393FC4E2A3255A200268445 /* StoryRow.swift in Sources */,
-				F393FC4C2A32535400268445 /* LinkButton.swift in Sources */,
+				F393FC4E2A3255A200268445 /* ContributionRow.swift in Sources */,
+				F3C9BC322A33661100A0F6B8 /* HiStructs.swift in Sources */,
+				F393FC4C2A32535400268445 /* ExternalAppLink.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
