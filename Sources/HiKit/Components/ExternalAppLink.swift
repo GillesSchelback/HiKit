@@ -19,7 +19,7 @@ struct ExternalAppLink: View {
                 .fill(data.backgroundGradient)
                 .frame(width: 40)
                 .overlay {
-                    Image(data.appIcon, bundle: HiConstant.bundleIdentifier)
+                    Image(data.appIcon, bundle: .module)
                         .resizable()
                         .frame(width: 30, height: 30)
                 }

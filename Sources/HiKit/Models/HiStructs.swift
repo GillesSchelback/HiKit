@@ -9,8 +9,6 @@ import SwiftUI
 import Foundation
 
 struct HiConstant {
-    static let bundleIdentifier = Bundle(identifier: "own.project.HiKit")
-    
     static let appCodes = [
         AppCode.ACAS001,
         AppCode.ACLI002,

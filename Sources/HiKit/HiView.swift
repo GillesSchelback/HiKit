@@ -14,7 +14,7 @@ public struct HiView: View {
     public var body: some View {
         ScrollView {
             VStack(spacing: 0) {
-                Image("Memoji", bundle: HiConstant.bundleIdentifier)
+                Image("Memoji", bundle: .module)
                     .resizable()
                     .frame(width: 180, height: 180)
                     .padding(.bottom, 16)
@@ -57,7 +57,7 @@ public struct HiView: View {
             }
         }
         .background {
-            Image("Background", bundle: HiConstant.bundleIdentifier)
+            Image("Background", bundle: .module)
                 .overlay { Rectangle().fill(.ultraThinMaterial) }
                 .ignoresSafeArea()
         }
