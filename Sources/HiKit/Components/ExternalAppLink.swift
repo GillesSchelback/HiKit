@@ -26,8 +26,7 @@ struct ExternalAppLink: View {
                 
               
         }
-        .accessibilityLabel(NSLocalizedString("Link", comment: ""))
-        .accessibilityRemoveTraits(.isButton)
-        .accessibilityRemoveTraits(.isLink)
+        .accessibilityLabel("\(data.appIcon) link")
+        .accessibilityRemoveTraits([.isLink, .isButton])
     }
 }
