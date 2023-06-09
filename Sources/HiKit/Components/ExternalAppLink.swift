@@ -23,7 +23,10 @@ struct ExternalAppLink: View {
                         .resizable()
                         .frame(width: 30, height: 30)
                 }
-                .accessibilityLabel("Link label")
+                .accessibilityLabel("Link")
+                .accessibilityValue("Link")
+                .accessibilityRemoveTraits(.isButton)
+                .accessibilityRemoveTraits(.isLink)
         }
     }
 }
