@@ -14,7 +14,7 @@ struct StoryRow: View {
     var body: some View {
         HStack(spacing: 16) {
             Circle()
-                .fill(.ultraThinMaterial)
+                .fill(.thinMaterial)
                 .frame(width: 40)
                 .overlay {
                     Text(emoji)

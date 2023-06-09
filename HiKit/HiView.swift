@@ -36,7 +36,7 @@ public struct HiView: View {
                         LinkButton(code: code)
                     }
                 }
-                .padding(.bottom, 32)
+                .padding(.bottom, 16)
                 
                 VStack(spacing: 16) {
                     Text("How was this app established?")
