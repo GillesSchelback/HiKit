@@ -6,7 +6,7 @@
 
 ## :bulb: Why was this package created?
 
-*HiKit* is a package created to combine everything that is related to the *Hi View*. This *View* gives the user a glimpse of the developer who created the app and create a more personal experience in a way. 
+*HiKit* is a package created to combine everything that is related to the *Hi View*. This *View* gives the end user a glimpse of the developer who created the app and create a more personalized experience in a way. 
 
 ## :art: More about the design
 
