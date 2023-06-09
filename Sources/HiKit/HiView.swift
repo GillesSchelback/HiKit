@@ -18,6 +18,7 @@ public struct HiView: View {
                     .resizable()
                     .frame(width: 180, height: 180)
                     .padding(.bottom, 16)
+                    .accessibilityRemoveTraits(.isImage)
                 
                 Text("How was this app established", bundle: .module)
                     .font(.body)
