@@ -27,6 +27,6 @@ struct ExternalAppLink: View {
               
         }
         .accessibilityLabel("\(data.appIcon) link")
-        .accessibilityRemoveTraits([.isLink, .isButton])
+        .accessibilityRemoveTraits(.isLink)
     }
 }
